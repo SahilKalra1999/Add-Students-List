@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="6dp"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#ffffff">
+    <TextView
+        android:id="@+id/rollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RollNo: "
+        android:layout_marginStart="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/sRollNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/rollNo"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:layout_below="@id/rollNo"
+        android:layout_marginStart="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/sName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@id/name"
+        android:layout_below="@id/sRollNo"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginStart="10dp"
+        android:text="Address: "
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/sAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/sName"
+        android:layout_toRightOf="@id/address"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="18sp"/>
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
